@@ -2,7 +2,8 @@
 
 const mongoose= require('mongoose');
 
-//Fetching the config json file
+//Fetching the config package
+//If we fetch the package we can get the values in json file
 const config= require('config');
 
 //Fetching Object uri from the config file
